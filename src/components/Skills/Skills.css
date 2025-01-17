@@ -1,0 +1,81 @@
+/* General Styles */
+.skill {
+    padding: 60px 0;
+    background-color:darkgray; /* Light background for contrast */
+  }
+  
+  .skill-box {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 90px;
+  }
+  
+  .skill-box h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .skill-box p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 40px;
+    line-height: 1.6;
+  }
+  
+  /* Carousel Styles */
+  .skill-slider {
+    position: relative;
+  }
+  
+  .skill-slider .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .skill-slider .item img {
+    width: 100px; /* Adjust for consistent size */
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .skill-slider .item img:hover {
+    transform: scale(1.1);
+  }
+  
+  .skill-slider .item h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #444;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+  .skill-box {
+      max-width: 100%;
+    }
+  
+  
+  
+    .skill-box p {
+      font-size: 0.9rem;
+    }
+  
+    .skill-slider .item img {
+      width: 70px;
+      height: 70px;
+    }
+  
+    .skill-slider .item h5 {
+      font-size: 0.9rem;
+    }
+  
+  

@@ -1,0 +1,19 @@
+.nav-link {
+    padding: 0 15px; /* Space between links */
+    color: #333; /* Adjust link color */
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* On hover */
+  }
+  
+  .navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .scrolled {
+    background-color: rgba(0, 0, 0, 0.8); /* Add background color when scrolled */
+    transition: background-color 0.3s ease;
+  }
